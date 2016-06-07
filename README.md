@@ -1,3 +1,5 @@
+![RADrepkg](images/RADrepkg.jpg "RADrepkg")
+
 # RADrepkg
 Make an OSX install package of file system changes since a snapshot
 
