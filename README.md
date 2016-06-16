@@ -88,6 +88,10 @@ If this is the case, you can use these transcripts to create installable package
 
 ##History:
 
+1.0.8 - 15 JUN 2016
+
+* Updated Package identifier and Readme.
+
 1.0.7 - 07 JUN 2016
 
 * Updated the exclude file.

@@ -5,7 +5,7 @@
 #   RADrepkg [transcript [title id version minsystem arch pkgname]]
 #
 # Mark J Swift
-GLB_VERSTAG="1.0.7"
+GLB_VERSTAG="1.0.8"
 
 [ 1 -eq 1 ];GLB_TRUE=$?
 [ 1 -ne 1 ];GLB_FALSE=$?
@@ -231,7 +231,7 @@ else
 
     GLB_PKGNAME=$(echo ${GLB_DOCNAME} | sed -E "s/-([0-9]{1,}(v[0-9]{1,})*(v[0-9A-Za-uw-z]{1,})*)-([0-9]{1,}v[0-9]{1,})-(i386|ppc)$//")
 
-    MAIN_PKGIDENTIFIER="net.sourceforge.radrepkg.${GLB_PKGNAME}"
+    MAIN_PKGIDENTIFIER="com.github.execriez.radrepkg.${GLB_PKGNAME}"
 
     MAIN_PKGTITLE=$(echo ${GLB_PKGNAME} | cut -d "-" -f2- | tr "-" " ")
 
@@ -255,7 +255,7 @@ else
       MAIN_PKGTITLE=${MAIN_DFLT}
     fi
 
-    MAIN_DFLT="net.sourceforge.radrepkg.${GLB_DOCNAME}"
+    MAIN_DFLT="com.github.execriez.radrepkg.${GLB_DOCNAME}"
     printf "Enter package identifier (e.g. ${MAIN_DFLT}):"
     read MAIN_PKGIDENTIFIER
     if test -z "${MAIN_PKGIDENTIFIER}"
@@ -333,7 +333,7 @@ rm -f "${GLB_MYTMPDIR}"/${GLB_PKGNAME}-tmp.txt
 
 echo "building package ${MAIN_PKGIDENTIFIER} version ${MAIN_PKGVERSION}"
 
-printf "This installation package was created using RADrepkg.\nhttp://sourceforge.net/projects/radrepkg/\n\n" >"${GLB_MYPATH}"/resources/PKG-Resources/ReadMe.txt
+printf "This installation package was created using RADrepkg.\nhttps://github.com/execriez/RADrepkg/\n\n" >"${GLB_MYPATH}"/resources/PKG-Resources/ReadMe.txt
 
 # Commented out because there's a bug in 10.10 where installer crashes if given a large readme
 #printf "The following files will be installed:\n\n" >>"${GLB_MYPATH}"/resources/PKG-Resources/ReadMe.txt
@@ -474,7 +474,7 @@ USERSUEND1
 rm -f "${GLB_MYPATH}"/resources/PKG-Resources/ReadMe.txt
 
 # -- remove remaining temporary files --
-#rm -fR "${GLB_MYTMPDIR}"
-#rm -f /tmp/radcmdpath
+rm -fR "${GLB_MYTMPDIR}"
+rm -f /tmp/radcmdpath
 
 echo "done"
