@@ -40,6 +40,8 @@ x /Library/ColorSync/Profiles/Displays
 x /Library/ColorSync/Profiles/Displays/*
 x /Library/ColorSync/Profiles/Printers
 x /Library/ColorSync/Profiles/Printers/*
+x /Library/Desktop\bPictures/.thumbnails/Sierra.jpg
+x /Library/Desktop\bPictures/Sierra.jpg
 x /Library/Keychains
 x /Library/Keychains/*
 x /Library/Logs
@@ -169,6 +171,8 @@ x /private/var/db/SystemEntropyCache
 x /private/var/db/SystemKey
 x /private/var/db/SystemPolicy
 x /private/var/db/systemstats
+x /private/var/db/uuidtext
+x /private/var/db/uuidtext/*
 x /private/var/db/volinfo.database
 x /private/var/folders
 x /private/var/folders/*
@@ -209,5 +213,6 @@ x /System/Library/PrelinkedKernels/*
 x /Users
 x /Users/*
 x /usr/*/man/whatis
+x /usr/libexec/cups
 x /Volumes
 x /Volumes/*

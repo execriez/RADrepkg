@@ -9,7 +9,7 @@
 # - should be, by typing: /usr/local/bin/fsdiff -1 -I -csha1 somefileordirectory
 #
 d /.fseventsd                          	0700     0     0
-d /.Trashes                            	1333     0     0
+d /.Trashes                            	1333     0    99
 d /.vol                                	0755     0     0
 d /cores                               	1775     0    80
 d /dev                                 	0555     0     0
@@ -23,7 +23,6 @@ d /Library/Preferences/SystemConfiguration	0755     0    80
 d /Library/Updates                     	0755     0     0
 d /net                                 	0555     0     0
 d /Network                             	0755     0     0
-d /private/etc/certificates            	0755     0     0
 d /private/etc/cups/certs              	0511    26    80
 d /private/tftpboot                    	0755     0     0
 d /private/tmp                         	1777     0     0
@@ -31,7 +30,6 @@ d /private/var/at/jobs                 	0755     1     0
 d /private/var/at/spool                	0755     1     0
 d /private/var/audit                   	0700     0     0
 d /private/var/db/BootCaches           	0755     0     0
-d /private/var/db/caches/opendirectory 	0770     0     0
 d /private/var/db/crls                 	0755     0     0
 d /private/var/db/dhcpclient/leases    	0700     0     0
 d /private/var/db/dslocal              	0755     0     0

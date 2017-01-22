@@ -23,7 +23,6 @@ d /Library/Preferences/SystemConfiguration	0755     0    80
 d /Library/Updates                     	0755     0     0
 d /net                                 	0555     0     0
 d /Network                             	0755     0     0
-d /private/etc/certificates            	0755     0     0
 d /private/etc/cups/certs              	0511    26    80
 d /private/tftpboot                    	0755     0     0
 d /private/tmp                         	1777     0     0

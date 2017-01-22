@@ -5,7 +5,7 @@
 #   RADrepkg [transcript [title id version minsystem arch pkgname]]
 #
 # Mark J Swift
-GLB_VERSTAG="1.0.8"
+GLB_VERSTAG="1.0.9"
 
 [ 1 -eq 1 ];GLB_TRUE=$?
 [ 1 -ne 1 ];GLB_FALSE=$?

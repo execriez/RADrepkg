@@ -5,7 +5,7 @@
 #
 #
 # Mark J Swift
-GLB_VERSTAG="1.0.7"
+GLB_VERSTAG="1.0.9"
 
 [ 1 -eq 1 ];GLB_TRUE=$?
 [ 1 -ne 1 ];GLB_FALSE=$?
