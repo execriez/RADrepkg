@@ -1,9 +1,9 @@
 ![RADrepkg](images/RADrepkg.jpg "RADrepkg")
 
 # RADrepkg
-Make an OSX install package of file system changes since a snapshot
+Make a MacOS install package of file system changes since a snapshot
 
-##Description:
+## Description:
 
 RADrepkg comprises of three scripts RADsnapshot, RADdiff and RADrepkg - that make use of "Radmind Tools" and Apple's "pkgbuild" and "productbuild" commands, in order to make an installable package of file system changes that have occured since a defined snapshot.
 
@@ -13,7 +13,7 @@ If at some point you have used Radmind as a deployment method, RADrepkg can also
 
 Again, you don't need a Radmind server - in this case, it is only important that the software and the associated radmind transcript are both still on the workstation.
 
-##Installation:
+## Installation:
 
 1. Download and unzip the "RADrepkg" scripts to a convenient location.
    
@@ -21,9 +21,9 @@ Again, you don't need a Radmind server - in this case, it is only important that
 
 2. Download and install the [Radmind Tools](http://sourceforge.net/projects/radmind/ "Radmind Tools")
 
-##How to use:
+## How to use:
 
-###Example 1
+### Example 1
 
 **Creating a snapshot and packaging up file system changes**
 
@@ -64,7 +64,7 @@ If you want to create an installable package containing all filesystem additions
 	![Result](images/06-End-Result.png "Result")
 
 
-###Example 2
+### Example 2
 
 **Packaging up an existing radmind transcript**
 
@@ -86,7 +86,13 @@ If this is the case, you can use these transcripts to create installable package
 
 
 
-##History:
+## History:
+
+1.0.10 - 10 OCT 2018
+
+* Updated RadmindTfix4SIP to latest version.
+
+* Fixed some formatting problems in the readme file.
 
 1.0.9 - 22 JAN 2017
 
